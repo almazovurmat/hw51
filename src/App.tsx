@@ -19,6 +19,7 @@ const App = () => {
             }
         }
 
+        generatedNumbers.sort((a, b) => a - b);
         setNumbers(generatedNumbers);
     };
 
