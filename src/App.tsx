@@ -24,7 +24,7 @@ const App = () => {
 
     return (
         <div className="App">
-            <button onClick={getArrayNumbers}>New numbers</button>
+            <button className="btn" onClick={getArrayNumbers}>New numbers</button>
             <div className="numbersBlock">
                 {
                     arrayNumbers.map(number => {
